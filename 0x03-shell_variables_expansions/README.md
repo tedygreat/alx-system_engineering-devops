@@ -1,0 +1,1 @@
+about the bash project 
