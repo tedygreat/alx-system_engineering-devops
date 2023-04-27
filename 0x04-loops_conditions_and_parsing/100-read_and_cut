@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# advanced task 100-read_and_cut
 file_h="/etc/passwd"
 while IFS= read -r line
 do
