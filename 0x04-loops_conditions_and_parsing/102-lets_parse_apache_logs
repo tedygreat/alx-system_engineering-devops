@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+#advanced task 102-lets_parse_apache_logs
 file_h="apache-access.log"
 awk -F' ' '{ print $1, $9}' $file_h
