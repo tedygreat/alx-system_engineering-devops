@@ -37,4 +37,4 @@ def recurse(subreddit, hot_list=[]):
             del hot_list[-1]
         return (hot_list)
     else:
-        return (None)
+        return None
