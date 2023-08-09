@@ -16,7 +16,7 @@ def count_words(subreddit, word_list, hot_list=[], viewed_count=0, after=''):
     query_string = '?show="all"&limit=100&after={}&count={}'.format(
         after, viewed_count)
     url = base + endpoint + query_string
-    headers = {'User-Agent': 'Python/1.0(Holberton School 0x16 task 3)'}
+    headers = {'User-Agent': 'Python/1.0(0x16 task 3)'}
     response = requests.get(url, headers=headers)
     if not response.ok:
             return
